@@ -7,20 +7,22 @@ import Meta from 'components/Meta';
 
 import useStyles from './styles';
 
-function Page2() {
+function Editorial() {
   const classes = useStyles();
 
   return (
     <>
       <Meta
-        title="Page 2"
-        description="Page 2"
+        title="Page 3"
+        description="Page 3"
       />
       <Container maxWidth="sm" className={classes.root}>
-        <Typography variant="h3">Page 2</Typography>
+        <Typography variant="h3">
+          here we will get to read the editorial of the given month
+        </Typography>
       </Container>
     </>
   );
 }
 
-export default Page2;
+export default Editorial;

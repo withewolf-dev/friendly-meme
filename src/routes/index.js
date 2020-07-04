@@ -6,25 +6,31 @@ const routes = [
     component: asyncComponentLoader(_ => import('pages/Welcome')),
     path: '/',
   },
+  
   {
     exact: true,
-    component: asyncComponentLoader(_ => import('pages/Page1')),
-    path: '/page-1',
-  },
-  {
-    exact: true,
-    component: asyncComponentLoader(_ => import('pages/Page2')),
-    path: '/page-2',
+    component: asyncComponentLoader(_ => import('pages/Politics')),
+    path: '/politics',
   },
   {
     exact: true,
     component: asyncComponentLoader(_ => import('pages/Page3')),
-    path: '/page-3',
+    path: '/page3',
   },
   {
     exact: true,
-    component: asyncComponentLoader(_ => import('pages/Page4')),
-    path: '/page-4',
+    component: asyncComponentLoader(_ => import('pages/Editorial')),
+    path: '/editorial',
+  },
+  {
+    exact: true,
+    component: asyncComponentLoader(_ => import('pages/Cinema')),
+    path: '/cinema',
+  },
+  {
+    exact: true,
+    component: asyncComponentLoader(_ => import('pages/Music')),
+    path: '/music',
   },
   {
     component: asyncComponentLoader(_ => import('components/NotFound')),

@@ -48,23 +48,29 @@ function Menu({ isOpen, onClose, onOpen }) {
           </ListItemIcon>
           <ListItemText primary="Welcome" />
         </StyledMenuItem>
-        <StyledMenuItem onClick={onClose} component={RouterLink} to="/page-1">
+        <StyledMenuItem onClick={onClose} component={RouterLink} to="/editorial">
           <ListItemIcon>
-            <JSIcon />
+            <WelcomeIcon />
           </ListItemIcon>
-          <ListItemText primary="Page 1" />
+          <ListItemText primary="Editorial" />
         </StyledMenuItem>
-        <StyledMenuItem onClick={onClose} component={RouterLink} to="/page-2">
+        <StyledMenuItem onClick={onClose} component={RouterLink} to="/politics">
           <ListItemIcon>
-            <ReactIcon />
+            <WelcomeIcon />
           </ListItemIcon>
-          <ListItemText primary="Page 2" />
+          <ListItemText primary="Politics" />
         </StyledMenuItem>
-        <StyledMenuItem onClick={onClose} component={RouterLink} to="/page-3">
+        <StyledMenuItem onClick={onClose} component={RouterLink} to="/music">
           <ListItemIcon>
-            <GithubIcon />
+            <WelcomeIcon />
           </ListItemIcon>
-          <ListItemText primary="Page 3" />
+          <ListItemText primary="Music" />
+          </StyledMenuItem>
+          <StyledMenuItem onClick={onClose} component={RouterLink} to="/cinema">
+          <ListItemIcon>
+            <WelcomeIcon />
+          </ListItemIcon>
+          <ListItemText primary="cinema" />
         </StyledMenuItem>
         <StyledMenuItem onClick={onClose} component={RouterLink} to="/page-4">
           <ListItemIcon>
