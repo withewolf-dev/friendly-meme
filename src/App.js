@@ -10,7 +10,8 @@ import Layout from 'sections/Layout';
 import { ThemeProvider } from 'theme';
 import { StoreProvider } from 'store';
 
-import { BrowserRouter as Router } from 'react-router-dom';
+//import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
